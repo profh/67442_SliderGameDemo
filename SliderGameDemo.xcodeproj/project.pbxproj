@@ -13,6 +13,9 @@
 		E73BDE90213EFAA20085C063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73BDE8F213EFAA20085C063 /* Assets.xcassets */; };
 		E73BDE93213EFAA20085C063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73BDE91213EFAA20085C063 /* LaunchScreen.storyboard */; };
 		E73BDE9E213EFAA30085C063 /* SliderGameDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BDE9D213EFAA30085C063 /* SliderGameDemoTests.swift */; };
+		E73BDEA9213F027B0085C063 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BDEA8213F027B0085C063 /* Game.swift */; };
+		E73BDEAB213F04420085C063 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73BDEAA213F04420085C063 /* GameTests.swift */; };
+		E7A29C8D2141A0E800BDD09A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A29C8C2141A0E800BDD09A /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		E73BDE99213EFAA30085C063 /* SliderGameDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderGameDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73BDE9D213EFAA30085C063 /* SliderGameDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameDemoTests.swift; sourceTree = "<group>"; };
 		E73BDE9F213EFAA30085C063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73BDEA8213F027B0085C063 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E73BDEAA213F04420085C063 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		E7A29C8C2141A0E800BDD09A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 				E73BDE8F213EFAA20085C063 /* Assets.xcassets */,
 				E73BDE91213EFAA20085C063 /* LaunchScreen.storyboard */,
 				E73BDE94213EFAA20085C063 /* Info.plist */,
+				E73BDEA8213F027B0085C063 /* Game.swift */,
+				E7A29C8C2141A0E800BDD09A /* AboutViewController.swift */,
 			);
 			path = SliderGameDemo;
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 			children = (
 				E73BDE9D213EFAA30085C063 /* SliderGameDemoTests.swift */,
 				E73BDE9F213EFAA30085C063 /* Info.plist */,
+				E73BDEAA213F04420085C063 /* GameTests.swift */,
 			);
 			path = SliderGameDemoTests;
 			sourceTree = "<group>";
@@ -198,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73BDE8B213EFAA20085C063 /* ViewController.swift in Sources */,
+				E73BDEA9213F027B0085C063 /* Game.swift in Sources */,
+				E7A29C8D2141A0E800BDD09A /* AboutViewController.swift in Sources */,
 				E73BDE89213EFAA20085C063 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73BDE9E213EFAA30085C063 /* SliderGameDemoTests.swift in Sources */,
+				E73BDEAB213F04420085C063 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X94WPSRU4C;
 				INFOPLIST_FILE = SliderGameDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X94WPSRU4C;
 				INFOPLIST_FILE = SliderGameDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
